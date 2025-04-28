@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+body{
+    background-color: aliceblue;
+    font: normal 18pt Arial;
+}
+
+input{
+    width: 200px;
+    height: 100px;
+    font: normal 12pt Arial;
+}

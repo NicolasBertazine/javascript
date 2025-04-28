@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(172, 243, 101);
+}
+
+header {
+    margin: auto;
+}
+
+header > h1 {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.288);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+article {
+    width: 600px;
+    min-height: 300px;
+    max-height: 900px;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+}
+
+#res{
+    text-align: justify;
+    font: normal 12pt Arial;
+    padding: 10px 20px;
+}
+
+input{
+    width: 250px;
+    height: 125px;
+    font: bold 18pt Arial;
+    margin: 75px 175px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font: italic bold 12pt Arial;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.288);
+    margin-top: 30px;
+}

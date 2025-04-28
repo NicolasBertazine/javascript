@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(255, 172, 161);
+    font: normal 18pt Arial;
+}
+
+header {
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.342);
+}
+
+main {
+    margin: auto;
+}
+
+article {
+    background-color: white;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.418);
+}
+
+input{
+    width: 250px;
+    height: 125px;
+    font: bold 20pt Arial;
+    margin: 75px 175px 75px 175px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.219);
+}
+
+input:hover{
+    background-color: rgb(202, 202, 202);
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font: italic bold 12pt Arial;
+    margin-top: 30px;
+}
